@@ -13,6 +13,7 @@
 		2014A0A927B5474700CA21F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2014A0A727B5474700CA21F0 /* Main.storyboard */; };
 		2014A0AB27B5474900CA21F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2014A0AA27B5474900CA21F0 /* Assets.xcassets */; };
 		2014A0AE27B5474900CA21F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2014A0AC27B5474900CA21F0 /* LaunchScreen.storyboard */; };
+		2014A0B627B67CA500CA21F0 /* calcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2014A0B527B67CA500CA21F0 /* calcModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2014A0AA27B5474900CA21F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2014A0AD27B5474900CA21F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2014A0AF27B5474900CA21F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2014A0B527B67CA500CA21F0 /* calcModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calcModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				2014A0A127B5474700CA21F0 /* AppDelegate.swift */,
 				2014A0A327B5474700CA21F0 /* SceneDelegate.swift */,
 				2014A0A527B5474700CA21F0 /* ViewController.swift */,
+				2014A0B527B67CA500CA21F0 /* calcModel.swift */,
 				2014A0A727B5474700CA21F0 /* Main.storyboard */,
 				2014A0AA27B5474900CA21F0 /* Assets.xcassets */,
 				2014A0AC27B5474900CA21F0 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				2014A0A627B5474700CA21F0 /* ViewController.swift in Sources */,
 				2014A0A227B5474700CA21F0 /* AppDelegate.swift in Sources */,
+				2014A0B627B67CA500CA21F0 /* calcModel.swift in Sources */,
 				2014A0A427B5474700CA21F0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +301,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +330,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
